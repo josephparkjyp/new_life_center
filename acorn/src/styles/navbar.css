@@ -1,0 +1,39 @@
+.nav-container {
+    height: 100px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.menu, .cart {
+    cursor: pointer;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.logo > * {    
+    margin: 0;
+    padding: 0;
+}
+
+.logo-top {
+    font-size: 3.5rem;
+}
+
+.logo-bot {
+    font-size: 1rem;
+    word-spacing: 2em;
+    position: relative;
+    top: -10px;
+}

@@ -37,3 +37,49 @@
     position: relative;
     top: -10px;
 }
+
+.menu-container {
+    width: 30%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border: 1px solid red;
+    background-color: white;
+}
+
+.menu-exit {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: #000000;
+}
+
+.menu-exit .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-exit .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.menu-exit .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+.menu-ul {
+    list-style-type: none;
+}
+
+.menu-li {
+    font-size: 2rem;
+    margin: 30px 0;
+}

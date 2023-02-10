@@ -5,7 +5,6 @@ import Background from './components/Background';
 function App() {
   return (
     <div>
-      <Background />
       <Navbar />
       <Hero />
     </div>

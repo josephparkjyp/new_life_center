@@ -3,7 +3,7 @@ import '../styles/navbar.css'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUser} from '@fortawesome/free-solid-svg-icons'
+import { faUser } from '@fortawesome/free-solid-svg-icons'
 
 
 
@@ -16,30 +16,27 @@ function Navbar() {
     <>
         <div className='nav-container'>
             <p className='menu' onClick={() => setToggle(!toggle)}>MENU</p>
-            <a className='logo' href='https://google.com'>
+            <a className='logo' href='http://localhost:3000/'>
                 <p className='logo-top'>NEW LIFE</p>
                 <p className='logo-bot'>C E N T E R</p>
             </a>
             <p className='cart' onClick={() => setToggleCart(!toggleCart)}>CART (0)</p>
         </div>
+        {toggle && <Darken toggle={toggle} setToggle={setToggle} toggleCart={toggleCart} setToggleCart={setToggleCart} />}
+        {toggleCart && <Darken toggle={toggle} setToggle={setToggle} toggleCart={toggleCart} setToggleCart={setToggleCart} />}
         {toggle && <Menu setToggle={setToggle}/>}
         {toggleCart && <Cart setToggleCart={setToggleCart}/>}
+        
     </>
     )
 }
 
 function Menu({ setToggle }) {
     
-    
-    
-    
-    
-    
-    
     return (
         <div className='menu-container'>
             
-            <a className='logo hide-on-large-screen' href='https://google.com'>
+            <a className='logo hide-on-large-screen' href='http://localhost:3000/'>
                 <p className='logo-top'>NEW LIFE</p>
                 <p className='logo-bot'>C E N T E R</p>
             </a>
@@ -69,7 +66,7 @@ function Cart({ setToggleCart }) {
     return (
         <div className='cart-container'>
             
-            <a className='logo hide-on-large-screen' href='https://google.com'>
+            <a className='logo hide-on-large-screen' href='http://localhost:3000/'>
                 <p className='logo-top'>NEW LIFE</p>
                 <p className='logo-bot'>C E N T E R</p>
             </a>
@@ -86,6 +83,19 @@ function Cart({ setToggleCart }) {
     )
 }
 
+
+function Darken({ toggle, setToggle, toggleCart, setToggleCart }) {
+    return (
+        <div className={`darken ${toggle || toggleCart ? 'show' : ''}`} onClick={() => {
+            if (toggle === true) {
+                setToggle(!toggle)
+            }
+            if (toggleCart === true) {
+                setToggleCart(!toggleCart)
+            }
+        }}></div>
+    )
+}
 
 
 

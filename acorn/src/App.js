@@ -1,12 +1,22 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Background from './components/Background';
+import './App.css'
 
 function App() {
   return (
     <div>
-      <Navbar />
-      <Hero />
+      
+      <div className='top'>
+        <Navbar />
+        <Hero />
+        <Background />
+      </div>
+      
+
+
+      
+
     </div>
 
   );

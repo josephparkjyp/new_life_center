@@ -8,8 +8,8 @@
     left: 0px;
     opacity: .8;
 
-    
-    background-image: url('../images/noodles-close.jpg');
+    background-color: #C2B9B9;
+    /* background-image: url('../images/noodles-close.jpg');
     background-attachment: fixed;
-    background-size: cover;
+    background-size: cover; */
 }

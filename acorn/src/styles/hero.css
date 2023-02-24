@@ -1,11 +1,8 @@
 .hero-container {
-    width: 50%;
-    max-width: 500px;
-
-    text-align: end;
-    margin: 150px auto;
-    position: relative;
-    left: 150px;
+    max-width: 80%;
+    margin: 20vh auto;
+    text-align: center;
+    align-items: center;
 }
 
 .hero-container > * {
@@ -18,8 +15,6 @@
 }
 
 .description {
-    width: 400px;
-    margin-left: auto;
     font-size: 1.15rem;
     font-weight: bold;
     line-height: 40px;

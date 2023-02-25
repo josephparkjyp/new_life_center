@@ -1,18 +1,17 @@
 {
   "files": {
-    "main.css": "/new_life_center/static/css/main.948cbaee.css",
-    "main.js": "/new_life_center/static/js/main.067cdf24.js",
+    "main.css": "/new_life_center/static/css/main.11a0d9c3.css",
+    "main.js": "/new_life_center/static/js/main.ee8c2dc1.js",
     "static/js/787.10f439b2.chunk.js": "/new_life_center/static/js/787.10f439b2.chunk.js",
     "static/media/Fraunces-Italic-VariableFont_SOFT,WONK,opsz,wght.ttf": "/new_life_center/static/media/Fraunces-Italic-VariableFont_SOFT,WONK,opsz,wght.b79ad8fe39d623e17fed.ttf",
     "static/media/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf": "/new_life_center/static/media/Fraunces-VariableFont_SOFT,WONK,opsz,wght.19cbf8c91fa01353cf81.ttf",
-    "static/media/raw-noodle2.jpg": "/new_life_center/static/media/raw-noodle2.6df685f88b0b045d6bef.jpg",
     "index.html": "/new_life_center/index.html",
-    "main.948cbaee.css.map": "/new_life_center/static/css/main.948cbaee.css.map",
-    "main.067cdf24.js.map": "/new_life_center/static/js/main.067cdf24.js.map",
+    "main.11a0d9c3.css.map": "/new_life_center/static/css/main.11a0d9c3.css.map",
+    "main.ee8c2dc1.js.map": "/new_life_center/static/js/main.ee8c2dc1.js.map",
     "787.10f439b2.chunk.js.map": "/new_life_center/static/js/787.10f439b2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.948cbaee.css",
-    "static/js/main.067cdf24.js"
+    "static/css/main.11a0d9c3.css",
+    "static/js/main.ee8c2dc1.js"
   ]
 }

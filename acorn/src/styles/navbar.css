@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+  }
+
 .nav-container {
     display: flex;
     justify-content: space-between;
@@ -5,7 +9,7 @@
     padding: 0 5vw;
 }
 
-.menu, .cart {
+.menu-button, .cart-button {
     cursor: pointer;
 }
 
@@ -35,16 +39,30 @@
     top: -0.33vw;
 }
 
-.menu-container {
+.menu.hidden {
     position: absolute;
     top: 0;
     left: 0;
     height: 100vh;
     background-color: white;
+
+    transform: translateX(-100%);
+    transition: transform 300ms ease-in-out;
+}
+
+.menu.visible {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background-color: white;
+
+    transform: translateX(0);
+    transition: transform 300ms ease-in-out;
 }
 
 @media screen and (max-width: 600px) {
-    .menu-container, .cart-container {
+    .menu, .cart {
         width: 100%;
     }
 
@@ -55,7 +73,7 @@
 }
 
 @media screen and (min-width: 600px) {
-    .menu-container, .cart-container {
+    .menu, .cart {
         width: 400px;
     }
 
@@ -113,12 +131,26 @@
     padding-left: 42px;
 }
 
-.cart-container {
+.cart.hidden {
     position: absolute;
     top: 0;
     right: 0;
     height: 100vh;
     background-color: white;
+
+    transform: translateX(100%);
+    transition: transform 300ms ease-in-out;
+}
+
+.cart.visible {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    background-color: white;
+
+    transform: translateX(0);
+    transition: transform 300ms ease-in-out;
 }
 
 @media screen and (min-width: 600px) {
@@ -139,12 +171,27 @@
     }
 }
 
-.darken {
+.block.hidden {
     position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.5);
+    
+    opacity: 0;
+    transition: opacity 300ms;
+    pointer-events: none;
+}
 
+.block.visible {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+    opacity: 1;
+    transition: opacity 300ms;
 }

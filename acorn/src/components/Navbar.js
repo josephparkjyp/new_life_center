@@ -1,47 +1,80 @@
-import React from 'react'
 import '../styles/navbar.css'
-import { Link } from 'react-router-dom'
+import React from 'react'
 import { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUser } from '@fortawesome/free-solid-svg-icons'
 
-
-
 function Navbar() {
     
-    const [toggle, setToggle] = useState(false)
+    // To change classes for Menu.
+    const [menu_class, setMenuClass] = useState('menu hidden')
+    const [toggleMenu, setToggleMenu] = useState(false)
+
+    function updateMenu() {
+        if (!toggleMenu) {
+            setMenuClass('menu visible')
+        } 
+        else {
+            setMenuClass('menu hidden')
+        }
+        setToggleMenu(!toggleMenu)
+        updateBlock()
+    }
+
+    // To change classes for Cart.
+    const [cart_class, setCartClass] = useState('cart hidden')
     const [toggleCart, setToggleCart] = useState(false)
-    
+
+    function updateCart() {
+        if (!toggleCart) {
+            setCartClass('cart visible')
+        } 
+        else {
+            setCartClass('cart hidden')
+        }
+        setToggleCart(!toggleCart)
+        updateBlock()
+    }
+
+    const [block_class, setBlockClass] = useState('block hidden')
+
+    function updateBlock() {
+        if (block_class === 'block hidden') {
+            setBlockClass('block visible')
+        }
+        else {
+            setBlockClass('block hidden')
+        }
+    }
+
     return (
-    <>
-        <div className='nav-container'>
-            <p className='menu' onClick={() => setToggle(!toggle)}>MENU</p>
-            <a className='logo' href='http://localhost:3000/'>
-                <p className='logo-top'>NEW LIFE</p>
-                <p className='logo-bot'>C E N T E R</p>
-            </a>
-            <p className='cart' onClick={() => setToggleCart(!toggleCart)}>CART (0)</p>
-        </div>
-        {toggle && <Darken toggle={toggle} setToggle={setToggle} toggleCart={toggleCart} setToggleCart={setToggleCart} />}
-        {toggleCart && <Darken toggle={toggle} setToggle={setToggle} toggleCart={toggleCart} setToggleCart={setToggleCart} />}
-        {toggle && <Menu setToggle={setToggle}/>}
-        {toggleCart && <Cart setToggleCart={setToggleCart}/>}
+        <>
+            <div className='nav-container'>
+                <p className='menu-button' onClick={updateMenu}>MENU</p>
+                <a className='logo' href='http://localhost:3000/'>
+                    <p className='logo-top'>NEW LIFE</p>
+                    <p className='logo-bot'>C E N T E R</p>
+                </a>
+                <p className='cart-button' onClick={updateCart}>CART (0)</p>
+            </div>
         
-    </>
+            <Block block_class={block_class} toggleMenu={toggleMenu} toggleCart={toggleCart} updateMenu={updateMenu} updateCart={updateCart}></Block>
+            <Menu menu_class={menu_class} updateMenu={updateMenu}></Menu>
+            <Cart cart_class={cart_class} updateCart={updateCart}></Cart>
+        </>
     )
+
 }
 
-function Menu({ setToggle }) {
-    
+function Menu(props) {
     return (
-        <div className='menu-container'>
-            
+        <div className={props.menu_class}>            
             <a className='logo hide-on-large-screen' href='http://localhost:3000/'>
                 <p className='logo-top'>NEW LIFE</p>
                 <p className='logo-bot'>C E N T E R</p>
             </a>
 
-            <div className='menu-exit' onClick={() => setToggle(false)}>
+            <div className='menu-exit' onClick={props.updateMenu}>
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -62,46 +95,34 @@ function Menu({ setToggle }) {
     )
 }
 
-function Cart({ setToggleCart }) {
+function Cart(props) {
     return (
-        <div className='cart-container'>
-            
+        <div className={props.cart_class}>
             <a className='logo hide-on-large-screen' href='http://localhost:3000/'>
                 <p className='logo-top'>NEW LIFE</p>
                 <p className='logo-bot'>C E N T E R</p>
             </a>
 
-            <div className='cart-exit' onClick={() => setToggleCart(false)}>
+            <div className='cart-exit' onClick={props.updateCart}>
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
             </div>
-
-            
-
         </div>
     )
 }
 
-
-function Darken({ toggle, setToggle, toggleCart, setToggleCart }) {
+function Block(props) {
     return (
-        <div className={`darken ${toggle || toggleCart ? 'show' : ''}`} onClick={() => {
-            if (toggle === true) {
-                setToggle(!toggle)
+        <div className={props.block_class} onClick={() => {
+            if (props.toggleMenu) {
+                props.updateMenu()
             }
-            if (toggleCart === true) {
-                setToggleCart(!toggleCart)
+            if (props.toggleCart) {
+                props.updateCart()
             }
         }}></div>
     )
 }
-
-
-
-
-
-
-
 
 export default Navbar

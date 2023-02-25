@@ -1,11 +1,8 @@
 .background {
     width: 100%;
-    position: absolute;
+    height: 100%;
     z-index: -1;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
+
     opacity: .8;
 
     background-color: #C2B9B9;

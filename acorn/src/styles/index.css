@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'Fraunces';
-  src: url('./fonts/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf') format('truetype');
+  src: url('../fonts/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Fraunces';
-  src: url('./fonts/Fraunces-Italic-VariableFont_SOFT\,WONK\,opsz\,wght.ttf') format('truetype');
+  src: url('../fonts/Fraunces-Italic-VariableFont_SOFT\,WONK\,opsz\,wght.ttf') format('truetype');
   font-weight: normal;
   font-style: italic;
 }

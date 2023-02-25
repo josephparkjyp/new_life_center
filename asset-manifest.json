@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/new_life_center/static/css/main.11a0d9c3.css",
+    "main.css": "/new_life_center/static/css/main.edd3bb14.css",
     "main.js": "/new_life_center/static/js/main.ee8c2dc1.js",
     "static/js/787.10f439b2.chunk.js": "/new_life_center/static/js/787.10f439b2.chunk.js",
     "static/media/Fraunces-Italic-VariableFont_SOFT,WONK,opsz,wght.ttf": "/new_life_center/static/media/Fraunces-Italic-VariableFont_SOFT,WONK,opsz,wght.b79ad8fe39d623e17fed.ttf",
     "static/media/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf": "/new_life_center/static/media/Fraunces-VariableFont_SOFT,WONK,opsz,wght.19cbf8c91fa01353cf81.ttf",
     "index.html": "/new_life_center/index.html",
-    "main.11a0d9c3.css.map": "/new_life_center/static/css/main.11a0d9c3.css.map",
+    "main.edd3bb14.css.map": "/new_life_center/static/css/main.edd3bb14.css.map",
     "main.ee8c2dc1.js.map": "/new_life_center/static/js/main.ee8c2dc1.js.map",
     "787.10f439b2.chunk.js.map": "/new_life_center/static/js/787.10f439b2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.11a0d9c3.css",
+    "static/css/main.edd3bb14.css",
     "static/js/main.ee8c2dc1.js"
   ]
 }

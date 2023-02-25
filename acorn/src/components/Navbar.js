@@ -6,6 +6,11 @@ import { faUser } from '@fortawesome/free-solid-svg-icons'
 
 function Navbar() {
     
+    
+    
+    
+    
+    
     // To change classes for Menu.
     const [menu_class, setMenuClass] = useState('menu hidden')
     const [toggleMenu, setToggleMenu] = useState(false)

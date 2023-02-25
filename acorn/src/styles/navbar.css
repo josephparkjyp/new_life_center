@@ -1,17 +1,19 @@
 .nav-container {
+    width: 100%;
+    position: fixed;
+    padding-bottom: 12px;
+    top: 0;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 12px;
+
     transition: all 300ms ease-in-out;
 }
 
 .nav-container.scrolled {
-    width: 100%;
-    position: fixed;
-    top: 0;
-    background-color: white;
     padding-top: 4px;
+    background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: all 300ms ease-in-out;
 }

@@ -12,6 +12,8 @@ function App() {
         <Hero />
         <Background />
         <Hero></Hero>
+        <Hero></Hero>
+        <Hero></Hero>
       </div>
       
 

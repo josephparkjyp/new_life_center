@@ -1,16 +1,31 @@
 import '../styles/navbar.css'
 import React from 'react'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUser } from '@fortawesome/free-solid-svg-icons'
 
 function Navbar() {
-    
-    
-    
-    
-    
-    
+
+    // Sticky Navbar
+    const [scrolled, setScrolled] = useState(false)
+
+    useEffect(() => {
+        function handleScroll() {
+            const scrollTop = window.scrollY;
+            if (scrollTop > 0) {
+                setScrolled(true)
+            }
+            else {
+                setScrolled(false)
+            }
+        }
+        
+        window.addEventListener('scroll', handleScroll)
+        return () => {
+            window.removeEventListener('scroll', handleScroll)
+        }
+    }, [])
+
     // To change classes for Menu.
     const [menu_class, setMenuClass] = useState('menu hidden')
     const [toggleMenu, setToggleMenu] = useState(false)
@@ -54,7 +69,7 @@ function Navbar() {
 
     return (
         <>
-            <div className='nav-container'>
+            <div className={`nav-container ${scrolled ? 'scrolled' : ''}`}>
                 <p className='menu-button' onClick={updateMenu}>MENU</p>
                 <a className='logo' href='http://localhost:3000/'>
                     <p className='logo-top'>NEW LIFE</p>
@@ -80,9 +95,9 @@ function Menu(props) {
             </a>
 
             <div className='menu-exit' onClick={props.updateMenu}>
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
+                <span className="bar"></span>
+                <span className="bar"></span>
+                <span className="bar"></span>
             </div>
             
             <ul className='menu-ul'>
@@ -109,9 +124,9 @@ function Cart(props) {
             </a>
 
             <div className='cart-exit' onClick={props.updateCart}>
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
+                <span className="bar"></span>
+                <span className="bar"></span>
+                <span className="bar"></span>
             </div>
         </div>
     )

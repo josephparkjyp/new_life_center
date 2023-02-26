@@ -1,3 +1,4 @@
+import './FadeOnIntersect.css'
 import React, { useRef, useEffect } from 'react';
 
 const FadeInOnIntersect = ({ children }) => {

@@ -1,6 +1,7 @@
 import FadeInOnIntersect from './components/FadeOnIntersect'
 import Container from './components/Container'
 import Navbar from './components/Navbar'
+import Product from './components/Product'
 import './styles/App.css'
 
 import front_page from "./images/front-page-opacity.png"
@@ -20,10 +21,10 @@ function App() {
         </FadeInOnIntersect>
       </Container>
 
-      <Container backgroundColor={'white'}>
-
-        <div style={{border: '1px solid red'}}>Healthy and delicious go hand in hand with our Korean acorn noodles. With benefits such as diabetes prevention, improved blood health, hemostatic effect and more, these noodles are a must-have for a healthier lifestyle.</div>
-
+      <Container backgroundColor={'#C2B9B9'}>
+        <FadeInOnIntersect>
+          <Product />
+        </FadeInOnIntersect>
       </Container>
       
 

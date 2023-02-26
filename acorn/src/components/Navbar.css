@@ -27,6 +27,8 @@
 
 .menu-button, .cart-button {
     cursor: pointer;
+    position: relative;
+    top: 5px;
 }
 
 .logo {

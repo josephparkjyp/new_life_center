@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/new_life_center/static/css/main.455b1766.css",
-    "main.js": "/new_life_center/static/js/main.0530af86.js",
+    "main.css": "/new_life_center/static/css/main.9d897a37.css",
+    "main.js": "/new_life_center/static/js/main.e1025491.js",
     "static/js/787.10f439b2.chunk.js": "/new_life_center/static/js/787.10f439b2.chunk.js",
     "static/media/front-page-opacity.png": "/new_life_center/static/media/front-page-opacity.3507b215e3c7067c47f1.png",
     "static/media/Fraunces-Italic-VariableFont_SOFT,WONK,opsz,wght.ttf": "/new_life_center/static/media/Fraunces-Italic-VariableFont_SOFT,WONK,opsz,wght.b79ad8fe39d623e17fed.ttf",
+    "static/media/spicy.jpg": "/new_life_center/static/media/spicy.44bd208a1741b81091f4.jpg",
     "static/media/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf": "/new_life_center/static/media/Fraunces-VariableFont_SOFT,WONK,opsz,wght.19cbf8c91fa01353cf81.ttf",
+    "static/media/warm-bowl.jpg": "/new_life_center/static/media/warm-bowl.142d25e5743f34f39e3e.jpg",
     "static/media/Poppins-Regular.ttf": "/new_life_center/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/spicy2.jpg": "/new_life_center/static/media/spicy2.41dcd9fac7d82f424cc7.jpg",
     "index.html": "/new_life_center/index.html",
-    "main.455b1766.css.map": "/new_life_center/static/css/main.455b1766.css.map",
-    "main.0530af86.js.map": "/new_life_center/static/js/main.0530af86.js.map",
+    "main.9d897a37.css.map": "/new_life_center/static/css/main.9d897a37.css.map",
+    "main.e1025491.js.map": "/new_life_center/static/js/main.e1025491.js.map",
     "787.10f439b2.chunk.js.map": "/new_life_center/static/js/787.10f439b2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.455b1766.css",
-    "static/js/main.0530af86.js"
+    "static/css/main.9d897a37.css",
+    "static/js/main.e1025491.js"
   ]
 }

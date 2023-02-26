@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/new_life_center/static/css/main.3eaaf8e5.css",
-    "main.js": "/new_life_center/static/js/main.0d47ffc9.js",
+    "main.css": "/new_life_center/static/css/main.455b1766.css",
+    "main.js": "/new_life_center/static/js/main.0530af86.js",
     "static/js/787.10f439b2.chunk.js": "/new_life_center/static/js/787.10f439b2.chunk.js",
+    "static/media/front-page-opacity.png": "/new_life_center/static/media/front-page-opacity.3507b215e3c7067c47f1.png",
     "static/media/Fraunces-Italic-VariableFont_SOFT,WONK,opsz,wght.ttf": "/new_life_center/static/media/Fraunces-Italic-VariableFont_SOFT,WONK,opsz,wght.b79ad8fe39d623e17fed.ttf",
     "static/media/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf": "/new_life_center/static/media/Fraunces-VariableFont_SOFT,WONK,opsz,wght.19cbf8c91fa01353cf81.ttf",
+    "static/media/Poppins-Regular.ttf": "/new_life_center/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
     "index.html": "/new_life_center/index.html",
-    "main.3eaaf8e5.css.map": "/new_life_center/static/css/main.3eaaf8e5.css.map",
-    "main.0d47ffc9.js.map": "/new_life_center/static/js/main.0d47ffc9.js.map",
+    "main.455b1766.css.map": "/new_life_center/static/css/main.455b1766.css.map",
+    "main.0530af86.js.map": "/new_life_center/static/js/main.0530af86.js.map",
     "787.10f439b2.chunk.js.map": "/new_life_center/static/js/787.10f439b2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3eaaf8e5.css",
-    "static/js/main.0d47ffc9.js"
+    "static/css/main.455b1766.css",
+    "static/js/main.0530af86.js"
   ]
 }

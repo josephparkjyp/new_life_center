@@ -59,6 +59,7 @@
 }
 
 .menu.hidden {
+    z-index: 9999;
     position: fixed;
     top: 0;
     left: 0;
@@ -152,6 +153,7 @@
 }
 
 .cart.hidden {
+    z-index: 9999;
     position: fixed;
     top: 0;
     right: 0;
@@ -193,6 +195,7 @@
 }
 
 .block.hidden {
+    z-index: 9090;
     position: fixed;
     top: 0;
     left: 0;

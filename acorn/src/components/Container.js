@@ -1,3 +1,4 @@
+import './Container.css'
 import React from 'react'
 
 function Container(props) {
@@ -8,7 +9,7 @@ function Container(props) {
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         width: '100%',
-        height: '100vh',
+        minHeight: '100vh',
         display: 'flex',
         justifyContent: 'space-between',
         alignItems: 'center',

@@ -20,14 +20,3 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-@font-face {
-  font-family: 'Poppins';
-  src: url('../fonts/Poppins-Regular.ttf');
-  font-weight: normal;
-  font-style: normal;
-}
-
-.Poppins {
-  font-family: Poppins;
-}

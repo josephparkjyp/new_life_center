@@ -1,23 +1,23 @@
-import './Container.css'
 import React from 'react'
 
 function Container(props) {
 
     const containerStyle = {
+        minHeight: '100vh',
         backgroundColor: props.backgroundColor,
         backgroundImage: `url(${props.backgroundImage})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        width: '100%',
-        minHeight: '100vh',
         display: 'flex',
-        justifyContent: 'space-between',
+        justifyContent: 'center',
         alignItems: 'center',
     }
 
     return (
-        <div className={props.class_name} style={containerStyle}>
-            {props.children}
+        <div style={containerStyle}>
+            <div style={{maxWidth: '1200px', padding: '0 20px'}}>
+                {props.children}
+            </div>
         </div>
     )
 }

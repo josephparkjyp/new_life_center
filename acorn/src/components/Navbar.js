@@ -70,12 +70,14 @@ function Navbar() {
     return (
         <>
             <div className={`nav-container ${scrolled ? 'scrolled' : ''}`}>
-                <p className='menu-button' onClick={updateMenu}>MENU</p>
-                <a className='logo' href='http://localhost:3000/'>
-                    <p className='logo-top'>NEW LIFE</p>
-                    <p className='logo-bot'>C E N T E R</p>
-                </a>
-                <p className='cart-button' onClick={updateCart}>CART (0)</p>
+                <div className='nav-items'>
+                    <p className='menu-button' onClick={updateMenu}>MENU</p>
+                    <a className='logo' href='http://localhost:3000/'>
+                        <p className='logo-top'>NEW LIFE</p>
+                        <p className='logo-bot'>C E N T E R</p>
+                    </a>
+                    <p className='cart-button' onClick={updateCart}>CART (0)</p>
+                </div>
             </div>
         
             <Block block_class={block_class} toggleMenu={toggleMenu} toggleCart={toggleCart} updateMenu={updateMenu} updateCart={updateCart}></Block>

@@ -7,8 +7,11 @@ function Container(props) {
         backgroundImage: `url(${props.backgroundImage})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        margin: '0',
-        padding: '0'
+        width: '100%',
+        height: '100vh',
+        display: 'flex',
+        justifyContent: 'space-between',
+        alignItems: 'center',
     }
 
     return (

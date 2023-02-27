@@ -7,6 +7,7 @@
     top: 0;
 
     transition: all 0.3s ease-in-out;
+    -webkit-transition: all all 0.3s ease-in-out;
 }
 
 .nav-container.scrolled {
@@ -14,6 +15,7 @@
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
 }
 
 .nav-items {
@@ -67,6 +69,7 @@
 
     transform: translateX(-100%);
     transition: transform 0.3s ease-in-out;
+    -webkit-transition: transform 0.3s ease-in-out;
 }
 
 .menu.visible {
@@ -79,6 +82,7 @@
 
     transform: translateX(0);
     transition: transform 0.3s ease-in-out;
+    -webkit-transition: transform 0.3s ease-in-out;
 }
 
 @media screen and (max-width: 600px) {
@@ -161,6 +165,7 @@
 
     transform: translateX(100%);
     transition: transform 0.3s ease-in-out;
+    -webkit-transition: transform 0.3s ease-in-out;
 }
 
 .cart.visible {
@@ -173,6 +178,7 @@
 
     transform: translateX(0);
     transition: transform 0.3s ease-in-out;
+    -webkit-transition: transform 0.3s ease-in-out;
 }
 
 @media screen and (min-width: 600px) {

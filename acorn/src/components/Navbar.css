@@ -6,14 +6,14 @@
     padding-bottom: 12px;
     top: 0;
 
-    transition: all 300ms ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .nav-container.scrolled {
     padding-top: 0px;
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: all 300ms ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .nav-items {
@@ -66,7 +66,7 @@
     background-color: white;
 
     transform: translateX(-100%);
-    transition: transform 300ms ease-in-out;
+    transition: transform 0.3s ease-in-out;
 }
 
 .menu.visible {
@@ -78,7 +78,7 @@
     background-color: white;
 
     transform: translateX(0);
-    transition: transform 300ms ease-in-out;
+    transition: transform 0.3s ease-in-out;
 }
 
 @media screen and (max-width: 600px) {
@@ -160,7 +160,7 @@
     background-color: white;
 
     transform: translateX(100%);
-    transition: transform 300ms ease-in-out;
+    transition: transform 0.3s ease-in-out;
 }
 
 .cart.visible {
@@ -172,7 +172,7 @@
     background-color: white;
 
     transform: translateX(0);
-    transition: transform 300ms ease-in-out;
+    transition: transform 0.3s ease-in-out;
 }
 
 @media screen and (min-width: 600px) {
@@ -203,7 +203,7 @@
     background-color: rgba(0, 0, 0, 0.5);
     
     opacity: 0;
-    transition: opacity 300ms;
+    transition: opacity 0.3s;
     pointer-events: none;
 }
 
@@ -217,5 +217,5 @@
     background-color: rgba(0, 0, 0, 0.5);
     
     opacity: 1;
-    transition: opacity 300ms;
+    transition: opacity 0.3s;
 }

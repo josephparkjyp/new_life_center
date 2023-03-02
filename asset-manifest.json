@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/new_life_center/static/css/main.28cece02.css",
-    "main.js": "/new_life_center/static/js/main.8f0fa80d.js",
+    "main.css": "/new_life_center/static/css/main.76dab8d7.css",
+    "main.js": "/new_life_center/static/js/main.9b9823cc.js",
     "static/js/787.10f439b2.chunk.js": "/new_life_center/static/js/787.10f439b2.chunk.js",
     "static/media/front-page-opacity.png": "/new_life_center/static/media/front-page-opacity.3507b215e3c7067c47f1.png",
     "static/media/raw-noodle.png": "/new_life_center/static/media/raw-noodle.be549857ef7544be5c7c.png",
@@ -14,12 +14,12 @@
     "static/media/spicy2.jpg": "/new_life_center/static/media/spicy2.41dcd9fac7d82f424cc7.jpg",
     "static/media/acorns.jpg": "/new_life_center/static/media/acorns.c853f3400b36880b6d67.jpg",
     "index.html": "/new_life_center/index.html",
-    "main.28cece02.css.map": "/new_life_center/static/css/main.28cece02.css.map",
-    "main.8f0fa80d.js.map": "/new_life_center/static/js/main.8f0fa80d.js.map",
+    "main.76dab8d7.css.map": "/new_life_center/static/css/main.76dab8d7.css.map",
+    "main.9b9823cc.js.map": "/new_life_center/static/js/main.9b9823cc.js.map",
     "787.10f439b2.chunk.js.map": "/new_life_center/static/js/787.10f439b2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.28cece02.css",
-    "static/js/main.8f0fa80d.js"
+    "static/css/main.76dab8d7.css",
+    "static/js/main.9b9823cc.js"
   ]
 }

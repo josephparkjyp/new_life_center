@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { forwardRef } from 'react'
 
-function Container(props) {
+const Container = forwardRef((props,ref) => {
 
     const containerStyle = {
-        minHeight: '100vh',
+        height: props.height,
+        minHeight: props.min_height,
         backgroundColor: props.backgroundColor,
         backgroundImage: `url(${props.backgroundImage})`,
         backgroundSize: 'cover',
@@ -14,12 +15,12 @@ function Container(props) {
     }
 
     return (
-        <div style={containerStyle}>
+        <div ref={ref} style={containerStyle}>
             <div style={{maxWidth: '1200px', padding: '0 20px'}}>
                 {props.children}
             </div>
         </div>
     )
-}
+})
 
 export default Container

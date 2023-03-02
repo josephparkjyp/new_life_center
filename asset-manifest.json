@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/new_life_center/static/css/main.4b1606f4.css",
-    "main.js": "/new_life_center/static/js/main.a277c52f.js",
+    "main.js": "/new_life_center/static/js/main.a4f25737.js",
     "static/js/787.10f439b2.chunk.js": "/new_life_center/static/js/787.10f439b2.chunk.js",
     "static/media/front-page-opacity.png": "/new_life_center/static/media/front-page-opacity.3507b215e3c7067c47f1.png",
     "static/media/raw-noodle.png": "/new_life_center/static/media/raw-noodle.be549857ef7544be5c7c.png",
+    "static/media/tomato-noodle.jpg": "/new_life_center/static/media/tomato-noodle.32b8121d0afccfb6cfe1.jpg",
     "static/media/Fraunces-Italic-VariableFont_SOFT,WONK,opsz,wght.ttf": "/new_life_center/static/media/Fraunces-Italic-VariableFont_SOFT,WONK,opsz,wght.b79ad8fe39d623e17fed.ttf",
     "static/media/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf": "/new_life_center/static/media/Fraunces-VariableFont_SOFT,WONK,opsz,wght.19cbf8c91fa01353cf81.ttf",
-    "static/media/warm-bowl.jpg": "/new_life_center/static/media/warm-bowl.142d25e5743f34f39e3e.jpg",
     "static/media/cold-noodles.jpg": "/new_life_center/static/media/cold-noodles.35996c4d7fd6ccfea5ea.jpg",
     "static/media/spicy2.jpg": "/new_life_center/static/media/spicy2.41dcd9fac7d82f424cc7.jpg",
     "index.html": "/new_life_center/index.html",
     "main.4b1606f4.css.map": "/new_life_center/static/css/main.4b1606f4.css.map",
-    "main.a277c52f.js.map": "/new_life_center/static/js/main.a277c52f.js.map",
+    "main.a4f25737.js.map": "/new_life_center/static/js/main.a4f25737.js.map",
     "787.10f439b2.chunk.js.map": "/new_life_center/static/js/787.10f439b2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4b1606f4.css",
-    "static/js/main.a277c52f.js"
+    "static/js/main.a4f25737.js"
   ]
 }

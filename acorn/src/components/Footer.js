@@ -27,7 +27,7 @@ function Footer() {
                         </div>
 
                         <div className='footer-quick'>
-                            <h3 className='footer-header'>Quick links</h3>
+                            <h3 className='footer-header'>Quick Links</h3>
                             <ul className='footer-ul'>
                                 <li>Home</li>
                                 <li>Shop</li>
@@ -38,18 +38,18 @@ function Footer() {
                         </div>
 
                         <div className='footer-resources'>
-                            <h3 className='footer-header'>Useful resources</h3>
+                            <h3 className='footer-header'>Useful Resources</h3>
                             <ul className='footer-ul'>
-                                <li>Cooking tips</li>
-                                <li>Our recipes</li>
+                                <li>Cooking Tips</li>
+                                <li>Our Recipes</li>
                             </ul>
                         </div>
 
                         <div className='footer-policies'>
                             <h3 className='footer-header'>Policies</h3>
                             <ul className='footer-ul'>
-                                <li>Terms of service</li>
-                                <li>Refund and returns</li>
+                                <li>Terms of Service</li>
+                                <li>Refund and Returns</li>
                                 <li>Privacy</li>
                                 <li>Shipping</li>
                             </ul>

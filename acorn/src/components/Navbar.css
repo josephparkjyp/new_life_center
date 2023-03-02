@@ -30,6 +30,8 @@
 .menu-button, .cart-button {
     cursor: pointer;
     position: relative;
+    font-family: Fraunces;
+    font-size: 1.1rem;
     top: 5px;
 }
 
@@ -41,6 +43,7 @@
     text-decoration: none;
     color: black;
     padding-top: 10px;
+    font-family: Fraunces;
 }
 
 .logo > * {

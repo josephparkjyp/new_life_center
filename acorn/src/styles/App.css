@@ -11,6 +11,7 @@
 .main-heading {
     font-size: clamp(2rem, 5vw, 3rem);
     font-weight: 500;
+    font-family: Fraunces;
 }
 
 .main-description {
@@ -24,18 +25,11 @@
     color: #000000;
     background-color: transparent;
     border-color: #000000;
-    font-family: Fraunces;
+    font-family: Chivo;
     font-size: 1.15rem;
     font-weight: 750;
 }
 
 .main-button:hover {
     cursor: pointer;
-}
-
-.heading {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 75px 0;
 }

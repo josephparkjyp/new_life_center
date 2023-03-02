@@ -1,11 +1,11 @@
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1200px) {
     .product-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         
-        margin: 0;
-        padding: 0 30px;
+        margin: 5vw 0;
+        padding: 0 0px;
         max-width: 500px;
     }
     
@@ -15,7 +15,7 @@
     }
     
     img {
-        margin: 50px auto;
+        margin: auto;
         width: 75%;
     }
     
@@ -32,7 +32,7 @@
         color: white;
         background-color: black;
         border-color: #000000;
-        font-family: Fraunces;
+        font-family: Chivo;
         font-size: 1.15rem;
         font-weight: 500;
     }
@@ -54,9 +54,9 @@
     }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
     .product-container {
-        margin: 75px 0;
+        margin: 5vw 0;
         display: flex;
         justify-content: space-between;
     }
@@ -79,7 +79,7 @@
         color: white;
         background-color: black;
         border-color: #000000;
-        font-family: Fraunces;
+        font-family: Chivo;
         font-size: 1.15rem;
         font-weight: 500;
     }

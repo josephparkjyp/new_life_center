@@ -7,13 +7,14 @@
 }
 
 .hero-header {
+    font-family: Fraunces;
     margin: 0;
     padding: 0;
 }
 
 .hero-paragraph {
     line-height: 2.2rem;
-    font-size: clamp(1rem, 1.1vw, 1.2rem);
+    font-size: clamp(1.1rem, 1.1vw, 1.2rem);
 }
 
 .hero-button {
@@ -22,7 +23,7 @@
     color: #000000;
     background-color: transparent;
     border-color: #000000;
-    font-family: Fraunces;
+    font-family: Chivo;
     font-size: 1.15rem;
     font-weight: 750;
 }

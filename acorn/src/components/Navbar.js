@@ -105,8 +105,8 @@ function Menu(props) {
             <ul className='menu-ul'>
                 <li className='menu-li'>Shop</li>
                 <li className='menu-li'>Learn</li>
-                <li className='menu-li'>Company</li>
-                <li className='menu-li'>Reviews</li>
+                <li className='menu-li'>About</li>
+                <li className='menu-li'>Testimonials</li>
             </ul>
 
             <a className='account'>

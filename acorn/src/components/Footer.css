@@ -1,0 +1,103 @@
+.newsletter-container {
+    margin: 100px 0;
+    text-align: center;
+    padding: 0;
+}
+
+.newsletter-header {
+    font-weight: normal;
+}
+
+.newsletter-container > form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.newsletter-input {
+    width: 50%;
+    padding: 10px 15px;
+    font-family: Chivo;
+    font-size: 1.1rem;
+    border-radius: 3px;
+    border: 1px solid #676869;
+}
+
+.newsletter-button {
+    width: 120px;
+    padding: 11px;
+    font-family: Chivo;
+    font-size: 1.1rem;
+    color: #FFFFFF;
+    background-color: #3ab15d;
+    border-radius: 3px;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.newsletter-button:hover, .newsletter-button:active {
+    background-color: #339e53;
+}
+
+.breaker {
+    width: 100%;
+    height: 120px;
+    background-image: url('../images/acorns.jpg')
+}
+
+.footer-container {
+    margin: 5vw 0;
+    padding: 0;
+    color: #676869;
+}
+
+.footer-main {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    display: grid;
+    gap: 40px;
+}
+
+.footer-header {
+    color: #000000;
+}
+
+.footer-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-ul > li {
+    margin: 12px 0;
+    padding: 0;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.footer-ul > li:hover {
+    color: #67686990;
+}
+
+@media screen and (max-width: 600px) {
+    .footer-main {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, auto);
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .footer-main {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto);
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .footer-main {
+        grid-template-columns: repeat(4, auto);
+    }
+}
+

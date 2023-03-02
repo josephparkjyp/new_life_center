@@ -66,9 +66,6 @@ function App() {
         <FadeInOnIntersect>
           <Product />
         </FadeInOnIntersect>
-        <FadeInOnIntersect>
-          <Product />
-        </FadeInOnIntersect>
       </Container>
         
       <Footer />

@@ -6,6 +6,7 @@
 
 .newsletter-header {
     font-weight: normal;
+    font-size: 1.3rem;
 }
 
 .newsletter-container > form {
@@ -16,7 +17,7 @@
 }
 
 .newsletter-input {
-    width: 50%;
+    width: 60%;
     padding: 10px 15px;
     font-family: Chivo;
     font-size: 1.1rem;
@@ -30,14 +31,14 @@
     font-family: Chivo;
     font-size: 1.1rem;
     color: #FFFFFF;
-    background-color: #3ab15d;
+    background-color: #b48151;
     border-radius: 3px;
     border: none;
     transition: background-color 0.3s;
 }
 
 .newsletter-button:hover, .newsletter-button:active {
-    background-color: #339e53;
+    background-color: #9b6f46;
 }
 
 .breaker {

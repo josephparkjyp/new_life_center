@@ -7,7 +7,7 @@ function Footer() {
         <>
             <Container backgroundColor={'#d9d9d950'}>
                 <div className='newsletter-container'>
-                    <h2 className='newsletter-header'>Sign up for news, recipes, and more from New Life Center.</h2>
+                    <h2 className='newsletter-header'>Sign up for news, recipes, and more from New Life Center</h2>
                     <form>
                         <input className='newsletter-input' type='email' placeholder='Enter email address'></input>
                         <button className='newsletter-button' type='button'>Subscribe</button>

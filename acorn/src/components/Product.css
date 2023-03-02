@@ -4,7 +4,7 @@
         flex-direction: column;
         justify-content: center;
         
-        margin: 5vw 0;
+        margin: 200px 0;
         padding: 0 0px;
         max-width: 500px;
     }
@@ -56,7 +56,7 @@
 
 @media screen and (min-width: 1200px) {
     .product-container {
-        margin: 5vw 0;
+        margin: 200px 0;
         display: flex;
         justify-content: space-between;
     }

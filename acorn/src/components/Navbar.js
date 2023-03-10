@@ -1,8 +1,6 @@
 import './Navbar.css'
 import React from 'react'
 import { useState, useEffect } from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUser } from '@fortawesome/free-solid-svg-icons'
 
 function Navbar() {
 
@@ -110,7 +108,6 @@ function Menu(props) {
             </ul>
 
             <a className='account'>
-                <FontAwesomeIcon icon={faUser} />
                 <p>Account</p>
             </a>
         </div>

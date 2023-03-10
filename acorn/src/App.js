@@ -12,9 +12,6 @@ import cold_noodles from "./images/cold-noodles.jpg"
 import spicy2 from "./images/spicy2.jpg"
 import tomato_noodle from "./images/tomato-noodle.jpg"
 
-
-
-
 function App() {
   
   const myRef = useRef(null)
